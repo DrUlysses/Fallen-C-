@@ -1,0 +1,227 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\Entity">
+      <UniqueIdentifier>{26f748b6-632f-46ab-800b-4a17427cd077}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Gui">
+      <UniqueIdentifier>{ae22403c-91b4-4094-9d1e-c72ce5ff59da}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Game">
+      <UniqueIdentifier>{fee9d4ab-d719-40d4-abd3-51246e765ef3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Gui">
+      <UniqueIdentifier>{8fff82ca-758c-489d-ba90-de6efe67e62a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Game">
+      <UniqueIdentifier>{c77164d6-3d0a-406e-a102-418884e6260a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Game\Entity">
+      <UniqueIdentifier>{082fa3b8-9450-48b0-8c57-fc86c64197ad}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Application.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Screen.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Entity.cpp">
+      <Filter>Source Files\Game\Entity</Filter>
+    </ClCompile>
+    <ClCompile Include="EntityBullet.cpp">
+      <Filter>Source Files\Game\Entity</Filter>
+    </ClCompile>
+    <ClCompile Include="EntityEnemy.cpp">
+      <Filter>Source Files\Game\Entity</Filter>
+    </ClCompile>
+    <ClCompile Include="EntityExplosion.cpp">
+      <Filter>Source Files\Game\Entity</Filter>
+    </ClCompile>
+    <ClCompile Include="EntityParticle.cpp">
+      <Filter>Source Files\Game\Entity</Filter>
+    </ClCompile>
+    <ClCompile Include="EntityPlayer.cpp">
+      <Filter>Source Files\Game\Entity</Filter>
+    </ClCompile>
+    <ClCompile Include="EntityStar.cpp">
+      <Filter>Source Files\Game\Entity</Filter>
+    </ClCompile>
+    <ClCompile Include="GuiButton.cpp">
+      <Filter>Source Files\Gui</Filter>
+    </ClCompile>
+    <ClCompile Include="GuiControl.cpp">
+      <Filter>Source Files\Gui</Filter>
+    </ClCompile>
+    <ClCompile Include="GuiScreen.cpp">
+      <Filter>Source Files\Gui</Filter>
+    </ClCompile>
+    <ClCompile Include="GuiScreenMainMenu.cpp">
+      <Filter>Source Files\Gui</Filter>
+    </ClCompile>
+    <ClCompile Include="GuiScreenNew.cpp">
+      <Filter>Source Files\Gui</Filter>
+    </ClCompile>
+    <ClCompile Include="GuiScreenOptions.cpp">
+      <Filter>Source Files\Gui</Filter>
+    </ClCompile>
+    <ClCompile Include="GuiScreenPause.cpp">
+      <Filter>Source Files\Gui</Filter>
+    </ClCompile>
+    <ClCompile Include="GuiScreenShop.cpp">
+      <Filter>Source Files\Gui</Filter>
+    </ClCompile>
+    <ClCompile Include="GuiScreenStartup.cpp">
+      <Filter>Source Files\Gui</Filter>
+    </ClCompile>
+    <ClCompile Include="GuiTextBox.cpp">
+      <Filter>Source Files\Gui</Filter>
+    </ClCompile>
+    <ClCompile Include="GameFile.cpp">
+      <Filter>Source Files\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="GameFileSave.cpp">
+      <Filter>Source Files\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="GameFileScores.cpp">
+      <Filter>Source Files\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="GameScreen.cpp">
+      <Filter>Source Files\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="EntityShipwreck.cpp">
+      <Filter>Source Files\Game\Entity</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Application.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Screen.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Entity.hpp">
+      <Filter>Header Files\Entity</Filter>
+    </ClInclude>
+    <ClInclude Include="EntityBullet.hpp">
+      <Filter>Header Files\Entity</Filter>
+    </ClInclude>
+    <ClInclude Include="EntityEnemy.hpp">
+      <Filter>Header Files\Entity</Filter>
+    </ClInclude>
+    <ClInclude Include="EntityExplosion.hpp">
+      <Filter>Header Files\Entity</Filter>
+    </ClInclude>
+    <ClInclude Include="EntityParticle.hpp">
+      <Filter>Header Files\Entity</Filter>
+    </ClInclude>
+    <ClInclude Include="EntityPlayer.hpp">
+      <Filter>Header Files\Entity</Filter>
+    </ClInclude>
+    <ClInclude Include="EntityStar.hpp">
+      <Filter>Header Files\Entity</Filter>
+    </ClInclude>
+    <ClInclude Include="GuiButton.hpp">
+      <Filter>Header Files\Gui</Filter>
+    </ClInclude>
+    <ClInclude Include="GuiControl.hpp">
+      <Filter>Header Files\Gui</Filter>
+    </ClInclude>
+    <ClInclude Include="GuiScreen.hpp">
+      <Filter>Header Files\Gui</Filter>
+    </ClInclude>
+    <ClInclude Include="GuiScreenMainMenu.hpp">
+      <Filter>Header Files\Gui</Filter>
+    </ClInclude>
+    <ClInclude Include="GuiScreenNew.hpp">
+      <Filter>Header Files\Gui</Filter>
+    </ClInclude>
+    <ClInclude Include="GuiScreenOptions.hpp">
+      <Filter>Header Files\Gui</Filter>
+    </ClInclude>
+    <ClInclude Include="GuiScreenPause.hpp">
+      <Filter>Header Files\Gui</Filter>
+    </ClInclude>
+    <ClInclude Include="GuiScreenShop.hpp">
+      <Filter>Header Files\Gui</Filter>
+    </ClInclude>
+    <ClInclude Include="GuiScreenStartup.hpp">
+      <Filter>Header Files\Gui</Filter>
+    </ClInclude>
+    <ClInclude Include="GuiTextBox.hpp">
+      <Filter>Header Files\Gui</Filter>
+    </ClInclude>
+    <ClInclude Include="GameFile.hpp">
+      <Filter>Header Files\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="GameFileSave.hpp">
+      <Filter>Header Files\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="GameFileScores.hpp">
+      <Filter>Header Files\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="GameScreen.hpp">
+      <Filter>Header Files\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="EntityShipwreck.hpp">
+      <Filter>Header Files\Entity</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="media\ammo.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="media\stdEnemy.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="media\textbox.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="media\arrow.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="media\button.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="media\cursor.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="media\explosion.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="media\legEnemy.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="media\player.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="media\shop.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="media\shopAmmo.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="media\star.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="media\unEnemy.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+  </ItemGroup>
+</Project>
